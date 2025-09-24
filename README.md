@@ -21,6 +21,7 @@ A [simple polygon](https://en.wikipedia.org/wiki/Simple_polygon) is one which do
 * Get Polygon coordinates (Points, Areas)
 * Render OpenGL Graphic to Bitmap
 * Render Animate OpenGL Graphic to Bitmap Frames
+* Render differnet Pixel Bit
 * Control OpenGL GHrahic Axis
 
 </br>
@@ -35,6 +36,12 @@ Any polygon has as many corners as it has sides. Each corner has several angles.
 
 ### Areas:
 * The signed area depends on the ordering of the vertices and of the orientation of the plane. Commonly, the positive [orientation](https://en.wikipedia.org/wiki/Orientation_(vector_space)) is defined by the (counterclockwise) rotation that maps the positive x-axis to the positive y-axis. If the vertices are ordered counterclockwise (that is, according to positive orientation), the signed area is positive; otherwise, it is negative. In either case, the area formula is correct in [absolute value](https://en.wikipedia.org/wiki/Absolute_value). This is commonly called the shoelace formula or [surveyor's formula](https://en.wikipedia.org/wiki/Shoelace_formula).
+
+### OpenGL:
+The OpenGL specification describes an abstract [application programming interface (API)](https://en.wikipedia.org/wiki/API) for drawing 2D and 3D graphics. It is designed to be implemented mostly or entirely using [hardware acceleration](https://en.wikipedia.org/wiki/Hardware_acceleration) such as a GPU, although it is possible for the API to be implemented entirely in software running on a CPU.
+
+### Render to Bitmap Frames:
+In typical [uncompressed](https://en.wikipedia.org/wiki/Image_compression) Bitmaps, image [Pixels](https://en.wikipedia.org/wiki/Pixel) are generally stored with a variable number of bits per pixel which identify its color (the [color depth](https://en.wikipedia.org/wiki/Color_depth)). Pixels of 8 bits and fewer can represent either grayscale or [indexed color](https://en.wikipedia.org/wiki/Indexed_color). An [alpha channel](https://en.wikipedia.org/wiki/Alpha_compositing) (for transparency) may be stored in a separate bitmap, where it is similar to a grayscale bitmap, or in a fourth channel that, for example, converts 24-bit images to 32 bits per pixel.
 
 
 
