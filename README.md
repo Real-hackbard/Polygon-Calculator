@@ -37,13 +37,59 @@ Any polygon has as many corners as it has sides. Each corner has several angles.
 ### Areas:
 * The signed area depends on the ordering of the vertices and of the orientation of the plane. Commonly, the positive [orientation](https://en.wikipedia.org/wiki/Orientation_(vector_space)) is defined by the (counterclockwise) rotation that maps the positive x-axis to the positive y-axis. If the vertices are ordered counterclockwise (that is, according to positive orientation), the signed area is positive; otherwise, it is negative. In either case, the area formula is correct in [absolute value](https://en.wikipedia.org/wiki/Absolute_value). This is commonly called the shoelace formula or [surveyor's formula](https://en.wikipedia.org/wiki/Shoelace_formula).
 
+</br>
+
+![Polygon](https://github.com/user-attachments/assets/89d856b3-ffb1-4169-8c48-13785a9f8560)
+
+</br>
+
 ### OpenGL:
 The OpenGL specification describes an abstract [application programming interface (API)](https://en.wikipedia.org/wiki/API) for drawing 2D and 3D graphics. It is designed to be implemented mostly or entirely using [hardware acceleration](https://en.wikipedia.org/wiki/Hardware_acceleration) such as a GPU, although it is possible for the API to be implemented entirely in software running on a CPU.
 
 ### Render to Bitmap Frames:
 In typical [uncompressed](https://en.wikipedia.org/wiki/Image_compression) Bitmaps, image [Pixels](https://en.wikipedia.org/wiki/Pixel) are generally stored with a variable number of bits per pixel which identify its color (the [color depth](https://en.wikipedia.org/wiki/Color_depth)). Pixels of 8 bits and fewer can represent either grayscale or [indexed color](https://en.wikipedia.org/wiki/Indexed_color). An [alpha channel](https://en.wikipedia.org/wiki/Alpha_compositing) (for transparency) may be stored in a separate bitmap, where it is similar to a grayscale bitmap, or in a fourth channel that, for example, converts 24-bit images to 32 bits per pixel.
 
+### Render to Bitmap Code Example:
+```pascal
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  Bitmap: TBitmap;
+  DC: HDC;
+  FileName: string;
+begin
+  // Render Bitmap Picture Image
+  Bitmap := TBitmap.Create;
+  try
+    Assert(HandleAllocated);
+    DC := GetWindowDC(Handle);
+    Win32Check(DC <> 0);
 
+    if RadioButton4.Checked = true then Bitmap.PixelFormat := pf4bit;
+    if RadioButton5.Checked = true then Bitmap.PixelFormat := pf8bit;
+    if RadioButton6.Checked = true then Bitmap.PixelFormat := pf24bit;
+    if RadioButton7.Checked = true then Bitmap.PixelFormat := pf32bit;
 
+    if CheckBox2.Checked = true then begin
+      Bitmap.SetSize(Width-ListBox1.Width, Height-280);
+      Win32Check(BitBlt(Bitmap.Canvas.Handle, 0, 0,
+                Width-ListBox1.Width, Height-280,
+                DC, 50, 50, SRCCOPY));
+    end;
+
+    if CheckBox2.Checked =false then begin
+      Bitmap.SetSize(Width-100, Height-280);
+      Win32Check(BitBlt(Bitmap.Canvas.Handle, 0, 0,
+                Width-100, Height-280,
+                DC, 50, 50, SRCCOPY));
+    end;
+
+    FileName := '.' + GraphicExtension(TBitmap);
+    if SaveDialog1.Execute then Bitmap.SaveToFile(SaveDialog1.FileName + FileName);
+  finally
+    ReleaseDC(Handle, DC);
+    Bitmap.Free;
+  end;
+end;
+```
 
 
