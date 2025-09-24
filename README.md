@@ -1,2 +1,42 @@
-# Polygon-Calculator
-Determine Polygon coordinates or Render OpenGL Graphics to Bitmap Frames.
+# Polygon-Calculator:
+</br>
+
+```ruby
+Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
+Components  : gl.pas, glex.pas, glu.pas
+Discription : Polygon Calculator and Renderer
+Last Update : 09/2025
+License     : Freeware
+```
+
+</br>
+
+In [geometry](https://en.wikipedia.org/wiki/Geometry), a polygon is a plane figure made up of line segments connected to form a [closed polygonal chain](https://en.wikipedia.org/wiki/Polygonal_chain#Closed).
+
+The segments of a closed polygonal chain are called its [edges](https://en.wikipedia.org/wiki/Edge_(geometry)) or sides. The points where two edges meet are the polygon's vertices or corners. An n-gon is a polygon with n sides; for example, a [triangle](https://en.wikipedia.org/wiki/Triangle) is a 3-gon.
+
+A [simple polygon](https://en.wikipedia.org/wiki/Simple_polygon) is one which does not intersect itself. More precisely, the only allowed intersections among the line segments that make up the polygon are the shared endpoints of consecutive segments in the polygonal chain. A simple polygon is the boundary of a region of the plane that is called a solid polygon. The interior of a solid polygon is its body, also known as a polygonal region or polygonal area. In contexts where one is concerned only with simple and solid polygons, a polygon may refer only to a simple polygon or to a solid polygon.
+
+### Features:
+* Get Polygon coordinates (Points, Areas)
+* Render OpenGL Graphic to Bitmap
+* Render Animate OpenGL Graphic to Bitmap Frames
+* Control OpenGL GHrahic Axis
+
+</br>
+
+![Polygon Calculator](https://github.com/user-attachments/assets/138b58f5-ba40-4bad-abfc-ca5026b21dfa)
+
+</br>
+
+### Points:
+Any polygon has as many corners as it has sides. Each corner has several angles. The two most important ones are:
+* [Interior angle](https://en.wikipedia.org/wiki/Internal_and_external_angles) – The sum of the interior angles of a simple n-gon is (n − 2) × π [radians](https://en.wikipedia.org/wiki/Polygon) or (n − 2) × 180 degrees. This is because any simple n-gon ( having n sides ) can be considered to be made up of (n − 2) triangles, each of which has an angle sum of π radians or 180 [degrees](https://en.wikipedia.org/wiki/Degree_(angle)).
+
+### Areas:
+* The signed area depends on the ordering of the vertices and of the orientation of the plane. Commonly, the positive [orientation](https://en.wikipedia.org/wiki/Orientation_(vector_space)) is defined by the (counterclockwise) rotation that maps the positive x-axis to the positive y-axis. If the vertices are ordered counterclockwise (that is, according to positive orientation), the signed area is positive; otherwise, it is negative. In either case, the area formula is correct in [absolute value](https://en.wikipedia.org/wiki/Absolute_value). This is commonly called the shoelace formula or [surveyor's formula](https://en.wikipedia.org/wiki/Shoelace_formula).
+
+
+
+
+
