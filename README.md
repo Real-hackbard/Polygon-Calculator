@@ -37,6 +37,45 @@ Any polygon has as many corners as it has sides. Each corner has several angles.
 ### Areas:
 * The signed area depends on the ordering of the vertices and of the orientation of the plane. Commonly, the positive [orientation](https://en.wikipedia.org/wiki/Orientation_(vector_space)) is defined by the (counterclockwise) rotation that maps the positive x-axis to the positive y-axis. If the vertices are ordered counterclockwise (that is, according to positive orientation), the signed area is positive; otherwise, it is negative. In either case, the area formula is correct in [absolute value](https://en.wikipedia.org/wiki/Absolute_value). This is commonly called the shoelace formula or [surveyor's formula](https://en.wikipedia.org/wiki/Shoelace_formula).
 
+### Code Example:
+```pascal
+procedure ppyload;
+var ms1: TResourcestream;
+    i:integer;
+    ww:real;
+begin
+   ms1 := TResourceStream.Create(hinstance,'x'+inttostr(nr),'RT_RCDATA');
+    try
+      ms1.readbuffer(ppy,ms1.size);
+      pzahl:=(ms1.size-2) div 12;
+  finally
+    ms1.Free;
+  end;
+  ppx:=@ppy;
+  smax:=0;
+  for i:=0 to pzahl-1 do begin
+    ww:=sqr(ppx[i,0])+sqr(ppx[i,1])+sqr(ppx[i,2]);
+    if ww>smax then smax:=ww;
+  end;
+  smax:=sqrt(smax);
+end;
+
+//Read Areas Coordinates from *.res
+procedure areaload;
+var ms1: TResourcestream;
+begin
+   ms1 := TResourceStream.Create(hinstance,'e'+inttostr(nr),'RT_RCDATA');
+    try
+      ms1.readbuffer(fppy,ms1.size);
+      punktzahl:=(ms1.size-2) div 2;
+  finally
+    ms1.Free;
+  end;
+  flaechenfeld:=@fppy;
+end;
+```
+
+
 </br>
 
 ![Polygon](https://github.com/user-attachments/assets/89d856b3-ffb1-4169-8c48-13785a9f8560)
@@ -49,7 +88,7 @@ The OpenGL specification describes an abstract [application programming interfac
 ### Render to Bitmap Frames:
 In typical [uncompressed](https://en.wikipedia.org/wiki/Image_compression) Bitmaps, image [Pixels](https://en.wikipedia.org/wiki/Pixel) are generally stored with a variable number of bits per pixel which identify its color (the [color depth](https://en.wikipedia.org/wiki/Color_depth)). Pixels of 8 bits and fewer can represent either grayscale or [indexed color](https://en.wikipedia.org/wiki/Indexed_color). An [alpha channel](https://en.wikipedia.org/wiki/Alpha_compositing) (for transparency) may be stored in a separate bitmap, where it is similar to a grayscale bitmap, or in a fourth channel that, for example, converts 24-bit images to 32 bits per pixel.
 
-### Render to Bitmap Code Example:
+### Code Example:
 ```pascal
 procedure TForm1.Button1Click(Sender: TObject);
 var
