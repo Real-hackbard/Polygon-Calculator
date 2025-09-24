@@ -135,14 +135,27 @@ Polygons are primarily classified by the number of sides.
 * Convexity and intersection
 Polygons may be characterized by their convexity or type of non-convexity:
 
-* Convex: any line drawn through the polygon (and not tangent to an edge or corner) meets its boundary exactly twice. As a consequence, all its interior angles are less than 180°. Equivalently, any line segment with endpoints on the boundary passes through only interior points between its endpoints. This condition is true for polygons in any geometry, not just Euclidean.
+* [Convex](https://en.wikipedia.org/wiki/Convex_polygon): any line drawn through the polygon (and not tangent to an edge or corner) meets its boundary exactly twice. As a consequence, all its interior angles are less than 180°. Equivalently, any line segment with endpoints on the boundary passes through only interior points between its endpoints. This condition is true for polygons in any geometry, not just Euclidean.
 * Non-convex: a line may be found which meets its boundary more than twice. Equivalently, there exists a line segment between two boundary points that passes outside the polygon.
-* Simple: the boundary of the polygon does not cross itself. All convex polygons are simple.
-* Concave: Non-convex and simple. There is at least one interior angle greater than 180°.
-* Star-shaped: the whole interior is visible from at least one point, without crossing any edge. The polygon must be simple, and may be convex or concave. All convex polygons are star-shaped.
-* Self-intersecting: the boundary of the polygon crosses itself. The term complex is sometimes used in contrast to simple, but this usage risks confusion with the idea of a * complex polygon as one which exists in the complex Hilbert plane consisting of two complex dimensions.
-* Star polygon: a polygon which self-intersects in a regular way. A polygon cannot be both a star and star-shaped.
+* [Simple](https://en.wikipedia.org/wiki/Simple_polygon): the boundary of the polygon does not cross itself. All convex polygons are simple.
+* [Concave](https://en.wikipedia.org/wiki/Concave_polygon): Non-convex and simple. There is at least one interior angle greater than 180°.
+* [Star-shaped](https://en.wikipedia.org/wiki/Star-shaped_polygon): the whole interior is visible from at least one point, without crossing any edge. The polygon must be simple, and may be convex or concave. All convex polygons are star-shaped.
+* [Self-intersecting](https://en.wikipedia.org/wiki/List_of_self-intersecting_polygons): the boundary of the polygon crosses itself. The term complex is sometimes used in contrast to simple, but this usage risks confusion with the idea of a * [complex polygon](https://en.wikipedia.org/wiki/Complex_polytope) as one which exists in the complex [Hilbert](https://en.wikipedia.org/wiki/Hilbert_space) plane consisting of two complex dimensions.
+* [Star polygon](https://en.wikipedia.org/wiki/Star_polygon): a polygon which self-intersects in a regular way. A polygon cannot be both a star and star-shaped.
 
 </br>
 
 ![Polygon](https://github.com/user-attachments/assets/89d856b3-ffb1-4169-8c48-13785a9f8560)
+
+</br>
+
+### Equality and symmetry:
+* [Equiangular](https://en.wikipedia.org/wiki/Equiangular_polygon): all corner angles are equal.
+* [Equilateral](https://en.wikipedia.org/wiki/Equilateral_polygon): all edges are of the same length.
+* [Regular](https://en.wikipedia.org/wiki/Regular_polygon): both equilateral and equiangular.
+* [Cyclic](https://en.wikipedia.org/wiki/Concyclic_points): all corners lie on a single circle, called the circumcircle.
+* [Tangential](https://en.wikipedia.org/wiki/Tangential_polygon): all sides are tangent to an inscribed circle.
+* [Isogonal or vertex-transitive](https://en.wikipedia.org/wiki/Isogonal_figure): all corners lie within the same symmetry orbit. The polygon is also cyclic and equiangular.
+* [Isotoxal or edge-transitive](https://en.wikipedia.org/wiki/Edge-transitive): all sides lie within the same [symmetry orbit](https://en.wikipedia.org/wiki/Symmetry_orbit). The polygon is also equilateral and tangential.
+
+The property of regularity may be defined in other ways: a polygon is regular if and only if it is both isogonal and isotoxal, or equivalently it is both cyclic and equilateral. A non-convex regular polygon is called a regular star polygon.
