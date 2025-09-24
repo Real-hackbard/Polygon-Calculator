@@ -75,11 +75,6 @@ begin
 end;
 ```
 
-
-</br>
-
-![Polygon](https://github.com/user-attachments/assets/89d856b3-ffb1-4169-8c48-13785a9f8560)
-
 </br>
 
 ### OpenGL:
@@ -131,4 +126,23 @@ begin
 end;
 ```
 
+</br>
 
+### Classification:
+* Number of sides
+Polygons are primarily classified by the number of sides.
+
+* Convexity and intersection
+Polygons may be characterized by their convexity or type of non-convexity:
+
+* Convex: any line drawn through the polygon (and not tangent to an edge or corner) meets its boundary exactly twice. As a consequence, all its interior angles are less than 180°. Equivalently, any line segment with endpoints on the boundary passes through only interior points between its endpoints. This condition is true for polygons in any geometry, not just Euclidean.
+* Non-convex: a line may be found which meets its boundary more than twice. Equivalently, there exists a line segment between two boundary points that passes outside the polygon.
+* Simple: the boundary of the polygon does not cross itself. All convex polygons are simple.
+* Concave: Non-convex and simple. There is at least one interior angle greater than 180°.
+* Star-shaped: the whole interior is visible from at least one point, without crossing any edge. The polygon must be simple, and may be convex or concave. All convex polygons are star-shaped.
+* Self-intersecting: the boundary of the polygon crosses itself. The term complex is sometimes used in contrast to simple, but this usage risks confusion with the idea of a * complex polygon as one which exists in the complex Hilbert plane consisting of two complex dimensions.
+* Star polygon: a polygon which self-intersects in a regular way. A polygon cannot be both a star and star-shaped.
+
+</br>
+
+![Polygon](https://github.com/user-attachments/assets/89d856b3-ffb1-4169-8c48-13785a9f8560)
