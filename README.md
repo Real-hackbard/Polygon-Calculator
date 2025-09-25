@@ -22,7 +22,7 @@ A [simple polygon](https://en.wikipedia.org/wiki/Simple_polygon) is one which do
 * Render OpenGL Graphic to Bitmap
 * Render Animate OpenGL Graphic to Bitmap Frames
 * Render differenet Pixel Bit
-* Control OpenGL GHrahic Axis
+* Control OpenGL Graphic Axis
 
 </br>
 
