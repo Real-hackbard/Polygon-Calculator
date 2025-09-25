@@ -21,7 +21,7 @@ A [simple polygon](https://en.wikipedia.org/wiki/Simple_polygon) is one which do
 * Get Polygon coordinates (Points, Areas)
 * Render OpenGL Graphic to Bitmap
 * Render Animate OpenGL Graphic to Bitmap Frames
-* Render differnet Pixel Bit
+* Render differenet Pixel Bit
 * Control OpenGL GHrahic Axis
 
 </br>
