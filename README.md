@@ -158,3 +158,12 @@ Polygons may be characterized by their convexity or type of non-convexity:
 * [Isotoxal or edge-transitive](https://en.wikipedia.org/wiki/Edge-transitive): all sides lie within the same [symmetry orbit](https://en.wikipedia.org/wiki/Symmetry_orbit). The polygon is also equilateral and tangential.
 
 The property of regularity may be defined in other ways: a polygon is regular if and only if it is both isogonal and isotoxal, or equivalently it is both cyclic and equilateral. A non-convex regular polygon is called a regular star polygon.
+
+</br>
+
+# Polyhedra Calculator: ![Delphi Multi](https://github.com/user-attachments/assets/5d70bc00-c9af-4d28-a708-25bb74c55b82)  
+
+</br>
+
+![Polyhedra Calculator](https://github.com/user-attachments/assets/f9ba611d-2841-497e-9c7a-8b2eb6e27a81)
+
