@@ -185,6 +185,8 @@ A kaleidocycle or flextangle is a flexible polyhedron connecting six tetrahedra 
 
 The kaleidocycle has degenerate pairs of coinciding edges in transition, which function as hinges. The kaleidocycle has an additional property that it can be continuously twisted around a ring axis, showing 4 sets of 6 triangular faces.
 
+Kaleidocycles can be constructed from a single piece of paper (with dimensions lx21) without tearing or using adhesive.[citation needed] Because of this and their continuous twisting property, they are often given as examples of simple [origami](https://en.wikipedia.org/wiki/Origami) toys. The kaleidocycle is sometimes called a [flexahedron](https://en.wikipedia.org/wiki/Flexagon) in analogy to the planar flexagon, which has similar symmetry under flexing transformations.
+
 </br>
 
 ![Kaleidocycle](https://github.com/user-attachments/assets/073dc819-e0d1-4e32-bcaa-7eea10f6bacf)
