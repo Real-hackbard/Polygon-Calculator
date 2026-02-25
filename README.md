@@ -175,6 +175,15 @@ Wiki : https://en.wikipedia.org/wiki/Polyhedron
 </br>
 
 # Kaleidocycle : ![Delphi Multi](https://github.com/user-attachments/assets/5d70bc00-c9af-4d28-a708-25bb74c55b82)  
+A kaleidocycle or flextangle is a flexible polyhedron connecting six tetrahedra (or disphenoids) on opposite edges into a cycle. If the faces of the disphenoids are equilateral triangles, it can be constructed from a stretched [triangular tiling](https://en.wikipedia.org/wiki/Triangular_tiling) net with four triangles in one direction and an even number in the other direction.
+
+</br>
+
+![Kaleidocycle_with_scalene_triangles](https://github.com/user-attachments/assets/697593fa-1106-4796-99d6-7da078e6f2e2)
+
+</br>
+
+The kaleidocycle has degenerate pairs of coinciding edges in transition, which function as hinges. The kaleidocycle has an additional property that it can be continuously twisted around a ring axis, showing 4 sets of 6 triangular faces.
 
 </br>
 
