@@ -162,6 +162,7 @@ The property of regularity may be defined in other ways: a polygon is regular if
 </br>
 
 # Polyhedra Calculator: ![Delphi Multi](https://github.com/user-attachments/assets/5d70bc00-c9af-4d28-a708-25bb74c55b82)  
+In [geometry](https://en.wikipedia.org/wiki/Geometry), a polyhedron (pl.: polyhedra or polyhedrons; from Greek πολύ (poly-)  'many' and ἕδρον (-hedron)  'base, seat') is a three-dimensional figure with flat [polygonal faces](https://en.wikipedia.org/wiki/Polygon), straight edges and sharp corners or vertices. The term "polyhedron" may refer either to a [solid figure](https://en.wikipedia.org/wiki/Solid_geometry#Solid_figures) or to its boundary surface. The terms solid polyhedron and polyhedral surface are commonly used to distinguish the two concepts. Also, the term polyhedron is often used to refer implicitly to the whole structure formed by a solid polyhedron, its polyhedral surface, its faces, its edges, and its vertices.
 
 </br>
 
