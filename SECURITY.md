@@ -10,6 +10,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Polygon Calculator |
 | 1.0.2   | :white_check_mark: Polygon Calculator |
 | 1.0.x   | :white_check_mark: Polyhedra Calculator - Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Kaleidocycle - Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
