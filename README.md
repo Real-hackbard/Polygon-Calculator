@@ -170,6 +170,10 @@ In [geometry](https://en.wikipedia.org/wiki/Geometry), a polyhedron (pl.: polyhe
 
 </br>
 
+Wiki : https://en.wikipedia.org/wiki/Polyhedron  
+
+</br>
+
 # Kaleidocycle : ![Delphi Multi](https://github.com/user-attachments/assets/5d70bc00-c9af-4d28-a708-25bb74c55b82)  
 
 </br>
