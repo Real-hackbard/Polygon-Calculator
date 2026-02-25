@@ -170,6 +170,8 @@ In [geometry](https://en.wikipedia.org/wiki/Geometry), a polyhedron (pl.: polyhe
 
 </br>
 
+There are many definitions of polyhedra, not all of which are equivalent. Under any definition, polyhedra are typically understood to generalize two-dimensional polygons and to be the three-dimensional specialization of [polytopes](https://en.wikipedia.org/wiki/Polytope) (a more general concept in any number of dimensions). Polyhedra have several general characteristics that include the number of faces, topological classification by Euler characteristic, duality, [vertex figures](https://en.wikipedia.org/wiki/Vertex_figure), [surface area](https://en.wikipedia.org/wiki/Surface_area), volume, interior lines, Dehn invariant, and symmetry. A symmetry of a polyhedron means that the polyhedron's appearance is unchanged by the transformation such as rotating and reflecting.
+
 Wiki : https://en.wikipedia.org/wiki/Polyhedron  
 
 </br>
