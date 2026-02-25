@@ -167,3 +167,11 @@ The property of regularity may be defined in other ways: a polygon is regular if
 
 ![Polyhedra Calculator](https://github.com/user-attachments/assets/f9ba611d-2841-497e-9c7a-8b2eb6e27a81)
 
+</br>
+
+# Kaleidocycle : ![Delphi Multi](https://github.com/user-attachments/assets/5d70bc00-c9af-4d28-a708-25bb74c55b82)  
+
+</br>
+
+![Kaleidocycle](https://github.com/user-attachments/assets/073dc819-e0d1-4e32-bcaa-7eea10f6bacf)
+
