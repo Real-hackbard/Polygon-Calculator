@@ -191,3 +191,6 @@ Kaleidocycles can be constructed from a single piece of paper (with dimensions l
 
 ![Kaleidocycle](https://github.com/user-attachments/assets/073dc819-e0d1-4e32-bcaa-7eea10f6bacf)
 
+</br>
+
+Wiki : https://en.wikipedia.org/wiki/Kaleidocycle
