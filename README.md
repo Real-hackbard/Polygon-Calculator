@@ -202,10 +202,18 @@ In geometry, a polyhedron (pl.: polyhedra or polyhedrons; from Greek πολύ (p
 
 </br>
 
-![Polyhedron](https://github.com/user-attachments/assets/0a12efd5-f989-4ff5-953d-58bec65f2964)
+![Tetrahemihexahedron_rotation](https://github.com/user-attachments/assets/9c9cb3bf-6014-4efa-9916-51938afc4f96)
 
 </br>
 
 There are many definitions of polyhedra, not all of which are equivalent. Under any definition, polyhedra are typically understood to generalize two-dimensional polygons and to be the three-dimensional specialization of [polytopes](https://en.wikipedia.org/wiki/Polytope) (a more general concept in any number of dimensions). Polyhedra have several general characteristics that include the number of faces, topological classification by Euler characteristic, duality, vertex figures, surface area, volume, interior lines, Dehn invariant, and symmetry. A [symmetry](https://en.wikipedia.org/wiki/Symmetry) of a polyhedron means that the polyhedron's appearance is unchanged by a transformation, such as rotating and reflecting.
+
+</br>
+
+![Polyhedron](https://github.com/user-attachments/assets/0a12efd5-f989-4ff5-953d-58bec65f2964)
+
+</br>
+
+Convex polyhedra are a well-defined class of polyhedra with several equivalent standard definitions. Every convex polyhedron is the convex hull of its vertices, and the [convex hull](https://en.wikipedia.org/wiki/Convex_hull) of a finite set of points is a polyhedron. Many common families of convex polyhedra, with cubes and pyramids are familiar examples of such.
 
 Wiki : https://en.wikipedia.org/wiki/Polyhedron
