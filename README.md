@@ -196,3 +196,6 @@ Kaleidocycles can be constructed from a single piece of paper (with dimensions l
 </br>
 
 Wiki : https://en.wikipedia.org/wiki/Kaleidocycle
+
+# Polyhedron : ![Delphi Multi](https://github.com/user-attachments/assets/5d70bc00-c9af-4d28-a708-25bb74c55b82)  
+In geometry, a polyhedron (pl.: polyhedra or polyhedrons; from Greek πολύ (poly-)  'many' and ἕδρον (-hedron)  'base, seat') is a [three-dimensional figure](https://en.wikipedia.org/wiki/Solid_geometry) with flat [polygonal](https://en.wikipedia.org/wiki/Polygon) faces, straight edges and sharp corners or vertices. The term "polyhedron" may refer either to a solid figure or to its boundary surface. The terms [solid polyhedron](https://en.wikipedia.org/wiki/Solid_geometry#Solid_figures) and polyhedral surface are commonly used to distinguish the two concepts. Also, the term polyhedron is often used to refer implicitly to the whole structure formed by a solid polyhedron, its polyhedral surface, its faces, its edges, and its vertices.
